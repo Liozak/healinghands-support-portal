@@ -1,0 +1,8 @@
+{
+  "name": "HealingHands Support Portal",
+  "description": "A comprehensive NGO portal for managing healthcare support requests, volunteer registrations, and communications, featuring AI-powered urgency classification.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
