@@ -4,7 +4,7 @@ import { AIAnalysis, UrgencyLevel, ProblemCategory } from "./types";
 
 export const analyzeHealthRequest = async (category: ProblemCategory, description: string): Promise<AIAnalysis> => {
   try {
-    // Corrected initialization using process.env.API_KEY
+    
     const ai = new GoogleGenAI({
       apiKey: import.meta.env.VITE_GEMINI_API_KEY
     });
